@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2e2b2042e13fa5547b1deeeafc6abe394a898928 Changes
+SHA1 d92e6ec25508fdc8f8addfb8042cc4041fea8a22 LICENSE
+SHA1 80607de660c12068ed8f6bdd7c67c56048166214 MANIFEST
+SHA1 9b607d5d9d3730e8949891b2199c0f89f0821e2d MANIFEST.SKIP
+SHA1 5cb5d1b118ab0bbcbb2c5db21c041415093c522c META.yml
+SHA1 a5081d7d8693cfeef4d11fe88754b998fc0df47b Makefile.PL
+SHA1 6d02d60bada5e58cabcf37d1a5951c78b34dd864 README
+SHA1 377c4f4c95beee7ec478170755a3e75b27b8bf52 bin/csv
+SHA1 501e4e79b5c73bf520f263eb222a2f3f9b32fd8a examples/EXAMPLES
+SHA1 c98cf08b0d4168833d384605ca6e082f25e9e798 lib/App/CSV.pm
+SHA1 f17ca8f5601cf2d64107a26b73792bacde4d3384 t/01-load.t
+SHA1 777b61054222e3e48ad26eebca982505fcddaa66 t/02-basic.t
+SHA1 8fcb45d64f6bfd600603c8b71289b3195b7cac5d t/03-file.t
+SHA1 4e78333afdcdd922f8438c5181c9cc1f49a713ce t/input1.csv
+SHA1 0a94b0759c4877f4ebcfe168bb4a1eb7f1b6256d t/output1.csv
+SHA1 772451dea5230b7dbd27e3f6caa3fa6e388db188 t/output1.tsv
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFJ0mt5N2uCuGP2mw4RAmevAJ4tYKYJR2vQF/lGHudJaepq1QWohQCdFEZE
+cz9KmO2PosGKQhRhq8ZyyV4=
+=IWYQ
+-----END PGP SIGNATURE-----
