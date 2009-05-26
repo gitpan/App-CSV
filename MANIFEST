@@ -10,8 +10,8 @@ README
 t/01-load.t
 t/02-basic.t
 t/03-file.t
+t/04-stdio.t
 t/input1.csv
 t/output1.csv
 t/output1.tsv
 META.yml                                 Module meta-data (added by MakeMaker)
-SIGNATURE                                Public-key signature (added by MakeMaker)

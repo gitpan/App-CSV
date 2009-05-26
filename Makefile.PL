@@ -11,7 +11,7 @@ WriteMakefile(
   AUTHOR    => 'Gaal\ Yahas\ \<gaal\@forum2\.org\>',
   ABSTRACT  => 'Manipulate CSV files from the command line',
   VERSION_FROM => 'lib/App/CSV.pm',
-  SIGN => 1,
+  SIGN => 0,
   EXE_FILES => [ grep { /\w$/ } glob("bin/*") ],
   (eval { ExtUtils::MakeMaker->VERSION(6.21) } ? (LICENSE => 'mit') : ()),
   PREREQ_PM    => {
@@ -24,6 +24,7 @@ WriteMakefile(
     'IO::String' => 0,
 
     # Recommended
-    # Temp::TestDir
+    # 'Temp::TestDir' => 0,
+    # 'IPC::Run' => 0,
   },
 );
