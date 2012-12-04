@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 ae56849aaf9e4defba8fac15f65f4fba98b74673 Changes
+SHA1 d92e6ec25508fdc8f8addfb8042cc4041fea8a22 LICENSE
+SHA1 7aba4560b2a5b7fc3b658a02123481a618c5af66 MANIFEST
+SHA1 9b607d5d9d3730e8949891b2199c0f89f0821e2d MANIFEST.SKIP
+SHA1 ecdbdf01000fb562dd1fa170ce63cd6fc5c5861d META.json
+SHA1 52af91d488ff0fbde2f5182ca32f6c3b1b26a73a META.yml
+SHA1 804d9917378558387a89a80d493356c68091465b MYMETA.json
+SHA1 f298cd7cc52c9a7373a3128d8ae2c0554e26ebf2 MYMETA.yml
+SHA1 24877aafb1e8c35ad176d16306b76b4b7e971796 Makefile.PL
+SHA1 6d02d60bada5e58cabcf37d1a5951c78b34dd864 README
+SHA1 5e4aaca8ed5f2eaf19a7f039ef8d62d3fd0505ef bin/csv
+SHA1 501e4e79b5c73bf520f263eb222a2f3f9b32fd8a examples/EXAMPLES
+SHA1 0f6197612bae0045d70d4485024dba142f2f1863 lib/App/CSV.pm
+SHA1 f17ca8f5601cf2d64107a26b73792bacde4d3384 t/01-load.t
+SHA1 5dc7442f4f6b7857d935c48817c77b63ea438acf t/02-basic.t
+SHA1 8fcb45d64f6bfd600603c8b71289b3195b7cac5d t/03-file.t
+SHA1 794ce3d05d9e9edb7742b2d2c12cf1fff7b9bc56 t/04-stdio.t
+SHA1 71cd7e050e3dae3baa6fb036df418855d3a93a38 t/boilerplate.t
+SHA1 4e78333afdcdd922f8438c5181c9cc1f49a713ce t/input1.csv
+SHA1 0a94b0759c4877f4ebcfe168bb4a1eb7f1b6256d t/output1.csv
+SHA1 772451dea5230b7dbd27e3f6caa3fa6e388db188 t/output1.tsv
+SHA1 6474d0d48688227a97313ca21115f98546a3d96b t/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iEYEARECAAYFAlC9p/MACgkQcNs4LFsgNuPJ+QCfU4R5mfs3kZlkD8OWTfzyYLYi
+8R0AoOpSpPaKQZKHzrxL3kXP6dXFaZCU
+=sIo5
+-----END PGP SIGNATURE-----
