@@ -19,27 +19,17 @@
          "inc"
       ]
    },
-   "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : 0
-         }
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-App-CSV@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-CSV"
       },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : 0
-         }
-      },
-      "runtime" : {
-         "requires" : {
-            "IO::String" : 0,
-            "Moose" : 0,
-            "MooseX::Getopt" : 0,
-            "Text::CSV_XS" : 0,
-            "perl" : "v5.6.0"
-         }
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/gaal/app-csv.git",
+         "web" : "https://github.com/gaal/app-csv"
       }
    },
-   "release_status" : "stable",
-   "version" : "0.06"
+   "version" : "0.07"
 }
